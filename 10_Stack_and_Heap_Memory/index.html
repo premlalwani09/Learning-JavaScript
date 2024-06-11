@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Stack and Heap Memory</h1>
+    <ul>
+        <li>
+            The stack is used for static memory allocation, while the heap is used for dynamic memory allocation.
+        </li>
+        <li>
+            Static memory allocation means that the size and location of the memory is fixed at compile time, while dynamic memory allocation means that the size and location of the memory can change at runtime.     
+        </li>
+        <li>
+            In JavaScript, primitive values (such as numbers, strings, booleans, etc.) are stored in the stack, while objects (such as arrays, functions, etc.) are stored in the heap.
+        </li>
+    </ul>
+
+    <h2>Shallow and Deep Copy</h2>
+    <p>
+        We have two kinds of object copies in JavaScript: shallow and deep. In a nutshell, shallow copies are used for “flat” objects and deep copies are used for “nested” objects.
+
+        <ul>
+            <li>
+                By “flat” objects we mean objects that contain only primitive values.
+        <br>
+        For instance: [1, 2, 3, 4, 5]
+        </li>
+        <li>
+        Nested objects mean objects that contain non-primitive values.
+        <br>
+        For instance: [“laptop”, {value: 5000}]
+        </li>
+        </ul>
+        <h3>Methods</h3>
+        <p>
+            To create a shallow copy, we can use the following methods:
+        <ul>
+            <li>
+                Spread syntax […] {…} 
+            </li>
+            <li>
+                Object.assign()
+            </li>
+            <li>
+                Array.from()
+            </li>
+            <li>
+                Object.create()
+            </li>
+            <li>
+                Array.prototype.concat()
+            </li>
+        </ul>
+        
+        And to create a deep copy, we can use:
+        
+        <ul>
+            <li>
+                JSON.parse(JSON.stringify())
+            </li>
+            <li>
+                structuredClone()
+            </li>
+            <li>
+                Third party libraries like Lodash
+            </li>
+        </ul>
+        </p>
+    </p>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
