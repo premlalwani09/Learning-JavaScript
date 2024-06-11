@@ -36,6 +36,10 @@ console.log(Math.floor(Date.now()/1000));
 let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getDate());
+console.log(newDate.getHours());
+console.log(newDate.getMinutes());
+console.log(newDate.getSeconds());
+console.log(newDate.getDay());
 console.log(newDate.getMonth()+1);
 
 
@@ -48,6 +52,11 @@ console.log(
         weekday: "long", 
     })
 );
+
+
+
+console.log(myDate.setDate(15));
+
 
 
 
