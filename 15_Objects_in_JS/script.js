@@ -1,8 +1,6 @@
 // Singleton
 // Object.create // Constructor method
 
-const { use } = require("express/lib/application");
-
 // Object literals (Id doesn't create singleton)
 
 const mySym = Symbol("key1")
