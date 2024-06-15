@@ -15,33 +15,33 @@
 
 
 
-// for (let i = 0; i < 3; i++) {
-//     console.log(`Outer Loop value : ${i}`);
-//     for (let j = 0; j < 3; j++) {
-//         console.log(`Inner Loop value ${i} and inner loop ${j}`);
+for (let i = 0; i < 3; i++) {
+    console.log(`Outer Loop value : ${i}`);
+    for (let j = 0; j < 3; j++) {
+        console.log(`Inner Loop value ${i} and inner loop ${j}`);
         
-//     }   
-// }
+    }   
+}
 
 
 
 
-// let myArray = ["Flash", "Batman", "Superman"]
+let myArray = ["Flash", "Batman", "Superman"]
 
-// for (let index = 0; index < myArray.length; index++) {
-//     const element = myArray[index];
-//     console.log(element); 
-// }
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    console.log(element); 
+}
 
 
 
 
 // WHILE LOOP
-// let i=0;
-// while (i < 10) {
-//     console.log(i);
-//     i += 2;
-// }
+let i=0;
+while (i < 10) {
+    console.log(i);
+    i += 2;
+}
 
 
 
