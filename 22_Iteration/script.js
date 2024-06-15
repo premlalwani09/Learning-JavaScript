@@ -61,7 +61,14 @@
 
 // DO-WHILE LOOP
 let score = 1
-do{
+do {
     console.log(score);
     score++;
 } while(score <= 10);
+
+
+let marks = 1
+do {
+    console.log(marks);
+    score++;
+} while(score <= 0);
