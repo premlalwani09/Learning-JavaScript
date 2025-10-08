@@ -46,8 +46,22 @@
 // console.log(12 <= 16);
 
 
+console.log("2" > 1);
+console.log("02" > 1);
 
 
+// Here ==  and other comparison work differently
+// In ==, null treated as NaN (Not a Number)
+// In other, null treated as 0
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
 
 
+console.log(undefined > 0);
+console.log(undefined == 0);
+console.log(undefined >= 0);
 
+
+// === (Best Cecking)
+console.log("2" === 2);
