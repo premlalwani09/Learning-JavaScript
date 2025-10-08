@@ -16,7 +16,7 @@
 // console.log(userIntro); 
 
 
-
+// console.table([username, userIntro, age])
 
 
 
