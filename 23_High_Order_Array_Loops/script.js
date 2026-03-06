@@ -96,6 +96,14 @@ myCoding.forEach((language) => {
     console.log(`${language.name} :- ${language.popularity}`);
 });
 
+
+const values = coding.forEach((language) => {
+    console.log(language);
+    return language;  // This return value will not be stored in the values variable because forEach does not return anything, it returns undefined
+});
+console.log(values)
+
+
 // Note :- For of loop is used for iterables like arrays, strings, maps, sets, etc. It gives values of the iterable. 
 //         For in loop is used for objects and it gives keys of the object.
 //         For each loop is used for arrays and it gives values of the array along with index.
